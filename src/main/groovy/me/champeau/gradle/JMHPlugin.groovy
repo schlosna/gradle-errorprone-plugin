@@ -48,7 +48,7 @@ class JMHPlugin implements Plugin<Project> {
     public static final String JMH_NAME = 'jmh'
     public static final String JMH_JAR_TASK_NAME = 'jmhJar'
     public static final String JMH_TASK_COMPILE_GENERATED_CLASSES_NAME = 'jmhCompileGeneratedClasses'
-    public static final String JHM_RUNTIME_CONFIGURATION = 'jmhRuntime'
+    public static final String JHM_RUNTIME_CONFIGURATION = 'jmhRuntimeClasspath'
 
     void apply(Project project) {
         if (!IS_GRADLE_MIN_55) {
